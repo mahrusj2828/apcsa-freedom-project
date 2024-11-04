@@ -11,8 +11,10 @@
 * I looked at [different](https://www.youtube.com/watch?v=UAS_pUTFA7o) [examples](https://godotengine.org/showcase/hive-time/) of what kind of style I want to make my game
 * Next, I will try to make a 2D avatar of the main character for my game
 
-### X/X/XX:
-* Text
+### 11/2/24:
+* Learned how to create a root of the scene using `Node2D`
+* Learned how to display a 2D image using `Sprite`
+* Going to try to learn how add color to the background
 
 
 <!--
