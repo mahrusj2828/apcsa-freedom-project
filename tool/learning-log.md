@@ -16,6 +16,15 @@
 * Learned how to display a 2D image using `Sprite`
 * Going to try to learn how add color to the background
 
+### 11/11/24:
+* Learned how to create a root of the scene using `Node2D`
+* Learned how to display a 2D image using `Sprite`
+* Going to try to learn how add color to the background
+
+### 11/17/24:
+* Learned how to add color using `from_hsv` in the form of `Color.from_hsv(r: float, g: float, b: float, a: float)`
+* Learned how to dim the background using `ColorRect` to apply a semi-transparent color
+* Going to try to learn how to add depth to the background
 
 <!--
 * Links you used today (websites, videos, etc)
