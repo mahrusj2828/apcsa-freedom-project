@@ -26,6 +26,11 @@
 * Learned how to dim the background using `ColorRect` to apply a semi-transparent color
 * Going to try to learn how to add depth to the background
 
+### 12/1/24
+* Learned how to use depth to certaib backgrounds using `ParallaxLayer` nodes and set different `motion_scale` values for each `ParallaxLayer`
+* Learned how to make shadows using `Light2D` and `LightOccluder2D` and added a texture to create a light source
+* Going to try to learn how to make the screen shake when a certain action happens
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
