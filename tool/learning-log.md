@@ -31,6 +31,11 @@
 * Learned how to make shadows using `Light2D` and `LightOccluder2D` and added a texture to create a light source
 * Going to try to learn how to make the screen shake when a certain action happens
 
+### 12/8/24
+* Learned how to make the screen shake by adding a `Camera2D` and setting its current property to `true` and by calling the `shake()` function
+* Learned how change the intensity by using `shake_intensity` to make the shake stronger or weaker and `shake_duration` to control how long the screen will shake (ex: `$Camera2D.shake(10, 0.2)` The intensity is at 10 and lasts for 0.2 seconds)
+* Going to try to learn how to make the screen border turn a different color
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
