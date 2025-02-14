@@ -1,21 +1,37 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: Godot
+## Product: 2D RPG Game
 
 ---
 
 ## Timeline
 
 #### MVP
+###### Introduction
+- [ ] Create the game's opening scene (e.g., a welcome message or tutorial) (Feb 28 - Mar 2)
 
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+##### Background Colors
+- [ ] Add a system to change background colors (e.g., day/night or different areas) (Mar 4 - Mar 6)
+  - [ ] Include primary and secondary colors for variety
+
+##### Top Bar UI
+- [ ] Design and add a top bar for health, mana, or inventory (Mar 9)
+
+##### Reset Button
+- [ ] Add a clear reset button with warnings to avoid accidental use (March 10 - March 12)
+
 
 #### Beyond MVP
+##### UI Polish
+- [ ] Improve the UI layout to make it clean and easy to use (Mar 14)
 
-- [ ] Task
-  - [ ] Subtask
+##### Save/Load System
+- [ ] Add a button to copy or save game progress (Mar 16)
+
+##### Other Creative Features
+- [ ] Add NPCs, side quests, and other smaller scale customizations
+
 
 
 <!-- EXAMPLE
