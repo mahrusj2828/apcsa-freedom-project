@@ -27,7 +27,7 @@
 * Going to try to learn how to add depth to the background
 
 ### 12/1/24
-* Learned how to use depth to certaib backgrounds using `ParallaxLayer` nodes and set different `motion_scale` values for each `ParallaxLayer`
+* Learned how to use depth to certain backgrounds using `ParallaxLayer` nodes and set different `motion_scale` values for each `ParallaxLayer`
 * Learned how to make shadows using `Light2D` and `LightOccluder2D` and added a texture to create a light source
 * Going to try to learn how to make the screen shake when a certain action happens
 
@@ -36,6 +36,10 @@
 * Learned how change the intensity by using `shake_intensity` to make the shake stronger or weaker and `shake_duration` to control how long the screen will shake (ex: `$Camera2D.shake(10, 0.2)` The intensity is at 10 and lasts for 0.2 seconds)
 * Going to try to learn how to make the screen border turn a different color
 
+### 03/09/25
+* Learned how to make a healthbar using `TextProgress` node as the root and then using `max_health` and `current_health` to set the current health
+* Learned how to reduce/add to the health bar by using `current_health -= amount`/`current_health += amount` and then `max(current_health, 0)`/`min(current_health, max_health)` to make sure the health doesn't go past the max or go below 0
+* Going to try to learn how make a stamina bar that decreases as you attack and slowly fills back up when not moving/attacking
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
