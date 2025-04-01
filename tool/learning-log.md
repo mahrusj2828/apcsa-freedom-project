@@ -37,9 +37,14 @@
 * Going to try to learn how to make the screen border turn a different color
 
 ### 03/09/25
-* Learned how to make a healthbar using `TextProgress` node as the root and then using `max_health` and `current_health` to set the current health
+* Learned how to make a healthbar using `TextureProgress` node as the root and then using `max_health` and `current_health` to set the current health
 * Learned how to reduce/add to the health bar by using `current_health -= amount`/`current_health += amount` and then `max(current_health, 0)`/`min(current_health, max_health)` to make sure the health doesn't go past the max or go below 0
 * Going to try to learn how make a stamina bar that decreases as you attack and slowly fills back up when not moving/attacking
+
+### 03/31/25
+* Learned how to make the character move faster (sprint) using the function `func _physics_process`, `var walk_speed`, and `var sprint_speed`
+* Learned how to make the character receive knockback damage using `var knockback_velocity := Vector3.ZERO`, `var knockback_decay`, and `var is_invulnerable := false`
+* Going to try to learn how to make different enemies deal different knockback damage
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
