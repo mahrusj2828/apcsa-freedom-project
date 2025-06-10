@@ -5,6 +5,8 @@
 
 * "What if the monsters were afraid of you?" This simple question became the foundation for my 2D RPG project developed in Godot. The journey from concept to playable prototype has been educational, teaching me about the importance of game architecture, the importance of clean code organization, and the way in which subtle design choices influence player experience. Through a repetitive process of testing and iteration, I've created a system that combines responsive, tight controls with simple combat depth. The player controller itself went through many iterations before landing on its present state-based methodology, which now incorporates directional attacks (side, front, back) and smooth animation transitions. Another of my greatest breakthroughs was appropriately separating the movement logic from the animation control, which rendered the code not only easier to maintain but also enabled combat responses and character feedback to be smoother.
 
+* My presentation slides presented the process of this project and showing the polished final version where creatures flee when you get too close. I would have demonstrated the three key systems that brought this vision to life: (1) the range-based AI state machine (with slides showing my Area2D detection zones and retreat thresholds), (2) directional combat mechanics (highlighting the animation state chart and hitbox diagrams), and (3) environmental immersion through Y-sorting (using before/after examples of depth rendering).
+
 ``` gdscript
 extends CharacterBody2D
 
